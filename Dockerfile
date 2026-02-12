@@ -17,7 +17,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy application code
 COPY app.py .
-COPY .env.example .
 
 # Create deployment directory
 RUN mkdir -p /var/cloudnest/apps
